@@ -1,6 +1,6 @@
 //generate random numbers from 0-100
 let numbers = [];
-for(let i = 0; i< 13; i++){
+for(let i = 2; i<= 13; i++){
     numbers.push (Math.floor(Math.random()*100))
 }
 //let even = []
