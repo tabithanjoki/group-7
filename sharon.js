@@ -1,10 +1,17 @@
-// JavaScript program to print numbers from 1 to 50
-// If a number is divisible by 3, print "fizz" instead
+// Function to get the FizzBuzz output for a number
+function getFizzBuzz(num) {
+    if (num % 3 === 0 && num % 5 === 0) {
+        return "FizzBuzz";
+    } else if (num % 3 === 0) {
+        return "fizz";
+    } else if (num % 5 === 0) {
+        return "buzz";
+    } else {
+        return num;
+    }
+}
 
+// Loop from 1 to 50 and print the result
 for (let i = 1; i <= 50; i++) {
-  if (i % 3 === 0) {
-    console.log("fizz");
-  } else {
-    console.log(i);
-  }
+    console.log(getFizzBuzz(i));
 }
