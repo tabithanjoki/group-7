@@ -1,4 +1,4 @@
-let groupAges = [17,18,19,23]
+let groupAges = [17,18,19,20]
 let totalAge = 0;
 for (let i = 0; i < groupAges.length; i++){
     totalAge = totalAge + groupAges [i];
